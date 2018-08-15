@@ -6,9 +6,9 @@ The implementation of the neural network is based on the approach to solve diffe
 The neural network is implemented using TensorFlow. In the current implementation, the neural net solves the Black-Scholes equation with sample Dirichlet boundary/final conditions.
 
 The given sample equations and boundary conditions were: <br>
-u(x,10) = g(x) = (e^x) / 5 <br>
-u(0,t) = f0(t) = (e^-0.01(10-t)) * (1/5)        //f0 is f subscript 0 <br>
-u(2,5) = f1(t) = (e^-0.01(10-t)) * ((e^2)/5)    //f1 is f subscript 1 <br>
+u(x, 10) = g(x) = (e^x) / 5 <br>
+u(0, t) = f0(t) = (e^-0.01(10-t)) * (1/5)        //f0 is f subscript 0 <br>
+u(2, t) = f1(t) = (e^-0.01(10-t)) * ((e^2)/5)    //f1 is f subscript 1 <br>
 
 Dirichlet BCs: <br>
 f0(10) = g(0) <br>
