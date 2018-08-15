@@ -5,6 +5,8 @@ The implementation of the neural network is based on the approach to solve diffe
 
 The neural network is implemented using TensorFlow. In the current implementation, the neural net solves the Black-Scholes equation with sample Dirichlet boundary/final conditions.
 
+The data used to train the neural network is generated uniformly based on the sample problem. 80% of the data is chosen randomly or training and 20% is used for cross-validation.
+
 The given sample equations and boundary conditions were: <br>
 u(x, 10) = g(x) = (e^x) / 5 <br>
 u(0, t) = f0(t) = (e^-0.01(10-t)) * (1/5)        //f0 is f subscript 0 <br>
