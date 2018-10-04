@@ -3,7 +3,7 @@ Research project for Rowan's Summer Undergraduate Research Program (2018). The r
 
 The implementation of the neural network is based on the approach to solve differential equations (Ordinary and Partial) described by Lagaris and Likas in their paper *Artificial Neural Networks for Solving Ordinary and Partial Differential Equations*. Other papers that were referenced includes Paul Wilmott's *Cliquet Options and Volatility Models* and Baymani et al.'s *Artificial Neural Networks Approach for Solving Stokes Problem*. <br>
 
-The neural network is implemented using TensorFlow. In the current implementation, the neural net solves the Black-Scholes equation with sample Dirichlet boundary/final conditions.
+The neural network is implemented using TensorFlow. In the current implementation, the neural net attempts to solve the Black-Scholes equation with sample Dirichlet boundary/final conditions.
 
 The data used to train the neural network is generated uniformly based on the sample problem. 80% of the data is chosen randomly for training and 20% is used for validation on the trained model.
 
