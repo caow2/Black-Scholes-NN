@@ -1,9 +1,13 @@
 # Black-Scholes-NN
 Research project for Rowan's Summer Undergraduate Research Program (2018). The research objective is to develop a neural network to solve the Black-Scholes equation. <br>
 
-The implementation of the neural network is based on the approach to solve differential equations (Ordinary and Partial) described by Lagaris and Likas in their paper *Artificial Neural Networks for Solving Ordinary and Partial Differential Equations*. Other papers that were referenced includes Paul Wilmott's *Cliquet Options and Volatility Models* and Baymani et al.'s *Artificial Neural Networks Approach for Solving Stokes Problem*. <br>
+The resources used are referenced below:
+* https://pdfs.semanticscholar.org/5ebb/e0b1a3d7a2431bbb25d6dfeec7ed6954d633.pdf
+* http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E4F4F0CC997A64C0B822DB4978CE344F?doi=10.1.1.336.8359&rep=rep1&type=pdf
+* https://pdfs.semanticscholar.org/1de0/33feff65e6a9052ba18b7d472c2129145b1a.pdf
+<br>
 
-The neural network is implemented using TensorFlow. In the current implementation, the neural net attempts to solve the Black-Scholes equation with sample Dirichlet boundary/final conditions.
+The neural network is implemented using TensorFlow. In the current implementation, the neural net attempts to solve a sample PDE that is similar to the BSE.
 
 The data used to train the neural network is generated uniformly based on the sample problem. 80% of the data is chosen randomly for training and 20% is used for validation on the trained model.
 
